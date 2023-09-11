@@ -76,15 +76,18 @@ section.imagem {
 }
 
 section.imagem > p {
-    color: black;
-    display: inline-block;
-    padding: 5px; 
+   display: inline-block;
+   padding: 5px;
+   background-color: rgba(0, 0, 0, 0.315);
+   text-shadow: 1px 1px 0px black;
+   border-radius: 10px;
+   box-shadow:  3px 3px 1px rgba(0, 0, 0, 0.471);
 
 }
 
 section#img01 {
-    background-image: url(imagens/img\ 03.jpg);
-    background-position: left center;
+    background-image: url(imagens/img\ cortada.png);
+    background-position: center center;
     background-size: cover;
 }
 
