@@ -68,11 +68,11 @@ section.normal {
     color: black;
 }
 
-section.imagem {
+section.imagem { 
     background-color: rgb(91, 88, 88);
     color: white;
     box-shadow: inset 3px 3px 5px 0px rgba(0, 0, 0, 0.787);
-    background-attachment: fixed;
+    background-attachment: fixed; /*Fixar imagem de fundo*/
 }
 
 section.imagem > p {
@@ -94,7 +94,7 @@ section#img01 {
 section#img02 {
     background-image: url(imagens/img\ 02.png);
     background-position: left center;
-    background-size: cover;
+    background-size: cover; /*Personalizar imagem de fundo*/
 }
 
 footer {
